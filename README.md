@@ -2,7 +2,7 @@
 R code for reading a fixed-width flat file**, like Genbank flat file format excluding sequence data, and storing the features and values in a list of lists.
 
 
-**created to read reaction flat file from KEGG FTP:
+**created to read reaction flat file from KEGG FTP (ligand/reaction.tar.gz)
 ```
 ENTRY       R00001                      Reaction
 NAME        polyphosphate polyphosphohydrolase
@@ -20,7 +20,7 @@ RCLASS      RC00002  C00002_C00008
 ENZYME      1.18.6.1
 ///
 ```
-and make a list in R:
+Outputs a list in R
 ```
 [[1]]
 [[1]]$ENTRY
