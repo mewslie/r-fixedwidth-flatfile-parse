@@ -20,3 +20,24 @@ RCLASS      RC00002  C00002_C00008
 ENZYME      1.18.6.1
 ///
 ```
+and make a list in R:
+```
+[[1]]
+[[1]]$ENTRY
+[1] "R00001                      Reaction"
+
+[[1]]$NAME
+[1] "polyphosphate polyphosphohydrolase"
+
+[[1]]$DEFINITION
+[1] "Polyphosphate + n H2O <=> (n+1) Oligophosphate"
+
+[[1]]$EQUATION
+[1] "C00404 + n C00001 <=> (n+1) C02174"
+
+[[1]]$ENZYME
+[1] "3.6.1.10"
+
+[[1]]$DBLINKS
+[1] "RHEA: 22455"
+```
