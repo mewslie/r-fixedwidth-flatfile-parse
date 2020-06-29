@@ -45,7 +45,7 @@ Detected issues with KEGG reaction flatfile
 
 Some reactions don't list orthology even if the enzyme has one.
 
-Reaction file
+Reaction file:
 ```
 ENTRY       R00011                      Reaction
 NAME        Mn(II):hydrogen-peroxide oxidoreductase
@@ -55,7 +55,7 @@ ENZYME      1.11.1.13       1.11.1.16
 DBLINKS     RHEA: 22779
 ```
 
-Enzyme file
+Enzyme file (ligand/enzyme.tar.gz):
 ```
 ENTRY       EC 1.11.1.13                Enzyme
 NAME        manganese peroxidase;
