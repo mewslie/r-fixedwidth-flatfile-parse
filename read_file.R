@@ -4,7 +4,7 @@ file.colwidth1 <- 12 #max characters in first column
 file.colwidth2 <- 600 #max characters in second column, manually count or use really big number
 entry.delimiter <- "///" #separator character between each entry (reaction, gene, protein etc)
 
-#read file.index into a dataframe where rows are lines in file, cols are columns as defined by file.colwidth1 and file.colwidth2
+#load file.index into a dataframe where rows are lines in file, cols are columns as defined by file.colwidth1 and file.colwidth2
 file.flat <- read.fwf(file.index, fill = T, strip.white = T, widths = c(file.colwidth1, file.colwidth2))
 
 #separate file.index into a list of dataframes that represent an entry by getting the line number of the limiters
